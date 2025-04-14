@@ -1,0 +1,68 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+#top-ul
+{
+  line-height: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  padding-left: 1.5rem;
+}
+ul#top-ul li {
+  display: list-item !important;
+  list-style-type: disc !important;
+}
+#key-benefits {
+  
+  list-style-position: outside;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  color: #555;
+  padding-left: 1.5rem;
+  margin-left: 1rem;
+  display: block; 
+}
+
+#key-benefits li {
+  display: list-item; 
+  list-style-type: disc !important;
+}
+
+
+
+ul.social li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background: #eee;
+  line-height: 43px;
+  color: #fff;
+
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social li {
+  padding: 10px 5px;
+}
+
+@media (max-width: 480px) {
+  ul.social li a {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+  }
+
+
+}
